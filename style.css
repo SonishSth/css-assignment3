@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'BR Omny SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BR Omny SemiBold'), url('./New\ folder/BROmny-SemiBold-BF65557eb890e9a.woff') format('woff');
+}
+
+*{
+    font-family: 'BR Omny SemiBold';
+    line-height: 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+header img{
+    height: 6vh;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+header nav a{
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.description h1{
+    margin: 0;
+}
+
+.description h2{
+    margin: 40px 0px 0px 0px;
+}
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.allergen-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-footer{
+    color: rgb(237, 79, 175);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-image{
+    height: 45vh;
+    width: 65%;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    width: 63%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about h1{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(237, 79, 175);
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.featured-ice-cream{
+    height: 25vh;
+}
+
+.header-image{
+    transition: all 0.4s;
+}
+
+.header-image:hover{
+    cursor: pointer;
+    transition: all 0.4s;
+    height: 7vh;
+}
